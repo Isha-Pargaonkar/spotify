@@ -1,0 +1,251 @@
+/* TITLE SECTION */
+#navigation_bar {
+  margin: 0;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 1.5rem !important;
+  width: 200px;
+  margin-left: 0;
+  height: 65px;
+  padding-top: 1rem !important;
+}
+.img {
+  width: 3rem;
+  color: white;
+}
+
+.navbar {
+  background-color: black;
+  height: 66px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.nav-link {
+  font-size: 14px;
+  color: white !important;
+}
+
+.nav-link:hover {
+  font-size: 14.5px;
+}
+
+#btn {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -webkit-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000000;
+  font-size: 15px;
+  padding: 12px 40px 12px 40px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.arrows {
+  padding: 5px;
+}
+
+.butn {
+  padding: 20px 10px 20px 0;
+}
+
+@media only screen and (min-width: 960px) {
+  .separator {
+    border-right: 2px solid #ffffff;
+    margin-top: 10px;
+    height: 40px;
+  }
+}
+
+/* SIDEBAR SECTION */
+.icon {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+.icon_list{
+  padding-left: 18px;
+  padding-right: 5px;
+}
+
+.sidenav {
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  width: 250px;
+  z-index: 1;
+  height: 100%;
+  /* Full-height*/
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 70px;
+}
+
+.brand {
+  color: white;
+  width: 250px;
+  padding: 1.1rem;
+
+}
+.side-nav{
+  padding: 0.2rem;
+}
+/* SONGS AND INFO SECTION */
+#songs_and_info {
+  padding: 86px 20px 20px 270px;
+  background-color: #191A19;
+}
+
+h2{
+  color: white;
+}
+.see_more{
+  text-align: right;
+}
+.section {
+  margin-bottom: 30px;
+}
+
+.card-body {
+  background-color: black;
+  color: white !important;
+}
+
+.card:hover .overlayer {
+  visibility: visible;
+}
+
+.card .title {
+  width: 100%;
+  text-align: center;
+  margin-top: 180px;
+}
+
+.card .overlayer {
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  visibility: hidden;
+}
+
+.overlayer .fa-play-circle {
+  color: #1ed760;
+  font-size: 73px;
+  margin-top: 53px;
+  transition: 100ms ease-in-out;
+}
+
+.fa-play-circle:hover {
+  transform: scale(1.1);
+}
+.row2{
+  padding-top: 20px;
+}
+#collapse a.collapsed:after {
+  content: '+ Show More';
+}
+
+#collapse a:not(.collapsed):after {
+  content: '- Show Less';
+}
+
+/* CONTACT US SECTION */
+#contact_us {
+  padding-left: 250px;
+  background-color: #191A19;
+}
+
+@media (min-width: 992px) {
+  .mh-brand.list-link, .mh-top-links.list-link {
+    flex: 0 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .list-link {
+    width: 16.66666667%;
+  }
+}
+
+.list-link {
+  font-size: 16px;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  min-height: 346px;
+  padding: 80px 0 50px;
+  color: white !important;
+  text-decoration: none;
+}
+
+.list-link:hover {
+  color: #1ed760 !important;
+}
+
+.lists {
+  padding: 0 15px;
+  color: grey;
+  line-height: 2;
+}
+
+footer {
+  background-color: black;
+}
+
+dt {
+  font-size: 1.1rem;
+}
+
+.a1 {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.a1:hover {
+  color: #1ed760;
+}
+
+.copyright {
+  text-align: right;
+  padding-left: 21rem;
+}
+
+.list_bottom {
+  padding-top: 7rem;
+}
+
+.line-clamp {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* icons */
+.icon_img{
+  width: 30%;
+  border-radius: 100%;
+  padding: 1rem;
+}

@@ -72,6 +72,9 @@
     margin-top: 10px;
     height: 40px;
   }
+  nav{
+    position: fixed;
+  }
 }
 
 /* SIDEBAR SECTION */
@@ -108,7 +111,7 @@
 
 }
 .side-nav{
-  padding: 0.2rem;
+  padding: 0.4rem;
 }
 /* SONGS AND INFO SECTION */
 #songs_and_info {
@@ -164,13 +167,13 @@ h2{
 .row2{
   padding-top: 20px;
 }
-#collapse a.collapsed:after {
+/* #collapse a.collapsed:after {
   content: '+ Show More';
 }
 
 #collapse a:not(.collapsed):after {
   content: '- Show Less';
-}
+} */
 
 /* CONTACT US SECTION */
 #contact_us {
@@ -249,8 +252,6 @@ dt {
   border-radius: 100%;
   padding: 1rem;
 }
-
-/* Hover On Image Cards*/
 .play_card{
     position: relative;
     min-width: 150px;
@@ -304,4 +305,3 @@ dt {
     font-weight: 500;
     font-size: 12px;
 }
-

@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 
 <body>
@@ -50,11 +52,11 @@
         <div class="features ms-auto">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-              <li class="nav-item "><a class="nav-link " href="#">PREMIUM</a></li>
-              <li class="nav-item "><a class="nav-link " href="#">SUPPORT</a></li>
-              <li class="nav-item "><a class="nav-link " href="#">DOWNLOAD</a></li>
+              <li class="nav-item "><a class="nav-link top" href="#">PREMIUM</a></li>
+              <li class="nav-item "><a class="nav-link top" href="#">SUPPORT</a></li>
+              <li class="nav-item "><a class="nav-link top" href="#">DOWNLOAD</a></li>
               <li class="separator"></li>
-              <li class="nav-item "><a class="nav-link " href="#">SIGN UP</a></li>
+              <li class="nav-item "><a class="nav-link top" href="#">SIGN UP</a></li>
               <li class="nav-item butn"><a id="btn" href="index.html">LOG IN</a></li>
             </ul>
           </div>
@@ -67,7 +69,7 @@
     <div class="sidenav">
       <ul class="nav flex-column">
         <li class="nav-item side-nav">
-          <a class="nav-link active" href="#"><i class="fas fa-home icon"></i>Home</a>
+          <a class="nav-link" href="#"><i class="fas fa-home icon"></i>Home</a>
         </li>
         <li class="nav-item side-nav">
           <a class="nav-link" href="#"><i class="fas fa-search icon"></i>Search</a>
@@ -98,15 +100,12 @@
       <div class="row">
         <div class="col">
           <h2 class="">Trending</h2>
-
         </div>
         <div class="col see_more">
-          <a role="button" class="collapsed" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">See More
+          <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">See More
           </a>
         </div>
       </div>
-
-
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card h-100">
@@ -314,7 +313,7 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li>
-                      <h4>I Don't Care(ft. Justin Beiber)</h4>
+                      <h4>Stay</h4>
                     </li>
                     <li>Artist: Ed Sheeren</li>
                     <li>Featuring Artist: Justion Beiber</li>
@@ -351,10 +350,10 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 play_card">
             <img src="https://i.scdn.co/image/ab67706f0000000334e8e4fa4cffd07150672628" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">HOT HTS - INDIA</h5>
+              <h5 class="card-title">HOT HITS - INDIA</h5>
               <p class="card-text">The hottest tracks in India. Cover: Fireboy DML, Ed Sheeren</p>
             </div>
           </div>
@@ -416,7 +415,7 @@
                       <h4>Albums</h4>
                     </li>
                     <li>Red(Taylor's Version)</li>
-                    <li>Fearless(Taylor's Version)</li>
+                    <li>Feerless(Taylor's Version)</li>
                     <li>Evermore</li>
                     <li>Folklore</li>
                     <li>Lover</li>
@@ -576,7 +575,7 @@
       </div>
     </footer>
   </section>
-  <script src="javascript/index.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
